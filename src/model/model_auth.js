@@ -1,6 +1,6 @@
 const db = require("../../helper(db)/connection");
 const { v4: uuidv4 } = require("uuid");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 const authModel = {
   register: ({ name, email, password }) => {

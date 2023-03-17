@@ -1,5 +1,5 @@
 const authModel = require("../model/model_auth");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
 const { JWT_PRIVATE_KEY } = process.env;
